@@ -46,59 +46,13 @@ Il Presidente dichiara aperta la seduta e pone in discussione il seguente ordine
 
 ## 5. Svolgimento della riunione
 
-### 5.1 Presa d'atto della cessazione del Consiglio Direttivo in carica
+### 5.1 Accettazione candidatura nuovi soci
 
-Il Presidente informa l'assemblea che in data **{{data_dimissioni}}** i membri del Consiglio Direttivo in carica hanno rassegnato le proprie **{{motivo_cessazione}}**. I membri uscenti sono:
+Il Presidente informa l'assemblea che in data **{{data_efficacia}}** i membri del Consiglio Direttivo in carica accettano la candidatura ad entrare a far parte dell'associazione sottoposta da:
 
-{{vecchio_consiglio}}
+{{nuovi_soci}}
 
 L'assemblea **prende atto all'unanimità** della cessazione del Consiglio Direttivo e ringrazia i membri uscenti per l'attività svolta nel periodo del mandato.
-
-### 5.2 Elezione del nuovo Consiglio Direttivo
-
-Il Presidente apre la procedura per l'elezione del nuovo Consiglio Direttivo e invita i soci a presentare le proprie candidature.
-
-Vengono presentate le seguenti candidature:
-
-{{candidati_consiglio}}
-
-Non essendovi ulteriori candidature, si procede alla votazione con **voto palese**.
-
-L'assemblea approva **all'unanimità** la seguente composizione del nuovo Consiglio Direttivo:
-
-{{nuovo_consiglio_eletto}}
-
-### 5.3 Attribuzione delle cariche interne al nuovo Consiglio Direttivo
-
-Il Presidente invita il nuovo Consiglio Direttivo a procedere all'attribuzione delle cariche interne.
-
-Il nuovo Consiglio Direttivo delibera, all'unanimità, la seguente attribuzione delle cariche:
-
-- **Presidente:** {{nuovo_presidente}}
-- **Segretario:** {{nuovo_segretario}}
-- **Tesoriere:** {{nuovo_tesoriere}}
-
-Il neo-eletto Presidente **{{nuovo_presidente}}** ringrazia e assume la conduzione dei lavori assembleari per i punti successivi.
-
-### 5.4 Modifica della denominazione sociale
-
-Il Presidente illustra la proposta di modifica della denominazione dell'associazione dall'attuale **"{{vecchia_denominazione}}"** alla nuova denominazione **"{{nuova_denominazione}}"**, e ne spiega le motivazioni.
-
-Dopo breve discussione, si procede alla votazione con **voto palese**.
-
-L'assemblea approva **all'unanimità** la modifica della denominazione sociale in **"{{nuova_denominazione}}"**, con efficacia **{{data_efficacia}}**.
-
-### 5.5 Approvazione del nuovo statuto sociale
-
-Il Presidente illustra all'assemblea il testo del nuovo statuto sociale ({{riferimento_statuto}}), dando lettura degli articoli e illustrando le modifiche rispetto al testo vigente.
-
-Non essendovi osservazioni, si procede alla votazione con **voto palese**.
-
-L'assemblea approva **all'unanimità** il nuovo statuto sociale così come proposto, riportato integralmente nell'{{riferimento_statuto}}, con efficacia **{{data_efficacia}}**.
-
-### 5.6 Varie ed eventuali
-
-Nessuno dei presenti chiede la parola per varie ed eventuali.
 
 ## 6. Chiusura
 
@@ -111,3 +65,45 @@ Letto, approvato e sottoscritto.
 _________________________          _________________________
 
 Il Presidente dell'Assemblea        Il Segretario Verbalizzante
+
+```{=latex}
+\clearpage
+```
+
+## Allegato A — Dati anagrafici nuovi soci
+
+### {{socio1_cognome}} {{socio1_nome}}
+
+| Campo | Dato |
+|---|---|
+| Cognome e nome | **{{socio1_cognome}} {{socio1_nome}}** |
+| Data di nascita | {{socio1_data_nascita}} |
+| Luogo di nascita | {{socio1_luogo_nascita}} |
+| Residenza | {{socio1_residenza}} |
+| CAP | {{socio1_cap}} |
+| Comune | {{socio1_comune}} |
+| Provincia | {{socio1_provincia}} |
+| Codice fiscale | {{socio1_codice_fiscale}} |
+| Email | {{socio1_email}} |
+| Telefono | {{socio1_telefono}} |
+| Data di iscrizione | {{socio1_data_iscrizione}} |
+| Quota versata (€) | {{socio1_quota}} |
+
+\vspace{1cm}
+
+### {{socio2_cognome}} {{socio2_nome}}
+
+| Campo | Dato |
+|---|---|
+| Cognome e nome | **{{socio2_cognome}} {{socio2_nome}}** |
+| Data di nascita | {{socio2_data_nascita}} |
+| Luogo di nascita | {{socio2_luogo_nascita}} |
+| Residenza | {{socio2_residenza}} |
+| CAP | {{socio2_cap}} |
+| Comune | {{socio2_comune}} |
+| Provincia | {{socio2_provincia}} |
+| Codice fiscale | {{socio2_codice_fiscale}} |
+| Email | {{socio2_email}} |
+| Telefono | {{socio2_telefono}} |
+| Data di iscrizione | {{socio2_data_iscrizione}} |
+| Quota versata (€) | {{socio2_quota}} |
